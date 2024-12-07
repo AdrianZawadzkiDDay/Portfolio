@@ -1,76 +1,72 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/angularapp.png";
+import project2 from "../assets/projects/zippdfapp.png";
+import project3 from "../assets/projects/kanbantool.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5.5 years of hands-on experience, I have honed my skills in back-end technologies like Java, Kotlin, Spring Boot, Javalin, SQL, MongoDB, as well as front-end technologies like React, Next.js and Angular. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5.5 years of professional experience, I have worked with a variety of technologies, including React, Angular, Java, Spring Boot, Kafka, ActiveMQ, OracleSQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "September 2023 - January 2025",
+    role: " Software Engineer ",
+    company: "OpenNet.pl (Allegro Group)",
+    description: `Adding functionalities to an affiliate program related to holiday promotions. Developing software for managing promotional campaign administration. Uploading, storing, and verifying authentication files for business publishers.`,
+    technologies: ["Kotlin", "Spring Boot", "MongoDB", "Kubernetes", "Hermes", "Kafka"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "December 2022 - September 2024",
+    role: "Java Developer / System Analyst II",
+    company: "Brown Brothers Harriman",
+    description: `Developing software for investment banking. An application generating reports in Excel and CSV regarding investment funds. Upgrading Java versions from 11 to 17 and Maven libraries. A transaction monitoring application built using Angular 14, Spring Boot 3, and Java 17.`,
+    technologies: ["Java", "Spring Boot", "Oracle SQL", "Angular", "Apache Camel", "Active MQ", "Kafka"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "June 2021 - September 2022",
+    role: "Java Full Stack Developer",
+    company: "J-Labs",
+    description: `Contractor at HSBC. Building and developing web applications for banking sector. Developing software for investors and venture capital funds. Communication software for investors.`,
+    technologies: ["Java", "Kotlin", "Javalin", "Spring Boot", "Postgres", "JDBI", "Flyway", "React"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "October 2020 - June 2021",
+    role: "Java Full Stack Developer",
+    company: "PTM Soft",
+    description: `Creating database systems for Krakow's museums. Developing software for detecting environmental threats, including air pollution. Utilizing libraries such as Leaflet and Google Maps`,
+    technologies: ["Java", "Spring Boot", "Postgres", "React", "Redux", "Next.js"],
+  },
+  {
+    year: "October 2020 - June 2021",
+    role: "Java Developer",
+    company: "COIG S.A.",
+    description: `Creating ERP systems for the mining industry. Development of new system functionalities, rewriting legacy code to REST.`,
+    technologies: ["Java", "JEE", "GIT", "SQL", "Liquibase"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Angular App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The skeleton of an Angular application integrated with a Spring backend. The application is designed to verify the correctness of user-submitted data. It is integrated with Spring Security and utilizes JWT tokens for authentication and authorization.",
+    technologies: ["Angular", "Angular Material", "HTML", "CSS", "TS"],
   },
   {
-    title: "Task Management App",
+    title: "ZIP snd PDF Download",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "An application used for creating PDF files on the backend and retrieving them on the frontend, as well as files with a .zip extension.",
+    technologies: ["Angular", "Java", "SpringBoot"],
   },
   {
-    title: "Portfolio Website",
+    title: "Kanban Manger Tool",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: "An application for task management.",
+    technologies: ["React", "Java", "Spring Boot", "Bootstrap"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  linkedin: "https://www.linkedin.com/in/adrian-zawadzki-093a90169/",
+  email: "zawadzkii@tlen.pl"
 };
