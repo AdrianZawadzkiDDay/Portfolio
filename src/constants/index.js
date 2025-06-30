@@ -2,9 +2,9 @@ import project1 from "../assets/projects/angularapp.png";
 import project2 from "../assets/projects/zippdfapp.png";
 import project3 from "../assets/projects/kanbantool.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5.5 years of hands-on experience, I have honed my skills in back-end technologies like Java, Kotlin, Spring Boot, Javalin, SQL, MongoDB, as well as front-end technologies like React, Next.js and Angular. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 years of hands-on experience, I have honed my skills in back-end technologies like Java, Kotlin, Spring Boot, Javalin, SQL, MongoDB, as well as front-end technologies like React, Next.js and Angular. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5.5 years of professional experience, I have worked with a variety of technologies, including React, Angular, Java, Spring Boot, Kafka, ActiveMQ, OracleSQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 years of professional experience, I have worked with a variety of technologies, including React, Angular, Java, Spring Boot, Kafka, ActiveMQ, OracleSQL, PostgreSQL, MongoDB and AWS Cloud. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
     {
@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     role: " Software Engineer ",
     company: "Spyrosoft",
     description: `A project for the real estate industry in the UK - conveyancingA project for the real estate industry in the UK - conveyancing`,
-    technologies: ["AWS", "Go", "Java"],
+    technologies: ["AWS", "Go", "Gin", "Gorm", "Java"],
   },
   {
     year: "September 2024 - January 2025",

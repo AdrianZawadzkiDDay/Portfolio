@@ -5,6 +5,7 @@ import { SiSpringboot } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { GrDocker } from "react-icons/gr";
 import { SiTypescript } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 import { motion } from "motion/react"
 
 const iconVariants = (duration) => ({
@@ -83,6 +84,13 @@ const Technologies = () => {
               animate="animate"
               className="rounded-2xl border-4 border-neutral-800 p-4">
                 <GrDocker className="text-7xl text-blue-700" />
+            </motion.div>
+                         <motion.div 
+              variants={iconVariants(1)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaAws className="text-7xl text-orange-500" />
             </motion.div>
         </motion.div>
     </div>
