@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     year: "February 2025 - current",
     role: " Software Engineer ",
     company: "Spyrosoft",
-    description: `A project for the real estate industry in the UK - conveyancingA project for the real estate industry in the UK - conveyancing`,
+    description: `A project for the real estate industry in the UK - conveyancing.`,
     technologies: ["AWS", "Go", "Gin", "Gorm", "Java"],
   },
   {
